@@ -1,0 +1,11 @@
+
+#!name= 来音智能陪练
+#!desc= 解锁VIP
+
+[Script]
+laiyin = type=http-response, pattern= ^http[s]?:\/\/(partner-ai-api.quthing.com|partner-ai-api.quthing.com)(/ai/vip/state|/student/info/h5), script-path= https://raw.githubusercontent.com/377972932/jiaoben/main/laiyin.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% partner-ai-api.quthing.com
+
+
