@@ -1,0 +1,1 @@
+var modifiedHeaders=$request["\u0068\u0065\u0061\u0064\u0065\u0072\u0073"];modifiedHeaders["\u0043\u006f\u006f\u006b\u0069\u0065"]="\"=sc4h+7tsuA+YB9lOxhPs3T6bn7VcjmKV8MBzbMQKW45\"=t ;\"=sc4h+7tsuA+YB9lOxhPs3T6bn7VcjmKV8MBzbMQKW45\"=l".split("").reverse().join("");$done({"\u0068\u0065\u0061\u0064\u0065\u0072\u0073":modifiedHeaders});
